@@ -1,0 +1,18 @@
+﻿<Window x:Class="Salon.UI.Korisnik"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Salon.UI"
+        mc:Ignorable="d"
+        Title="Korisnik" Height="392.482" Width="363.158">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="200" VerticalAlignment="Top" Width="432" Source="/Salon;component/SLIKE/korisnici.jpg" Margin="0,0,-77,0"/>
+        <DataGrid HorizontalAlignment="Left" Height="117" Margin="0,200,0,0" VerticalAlignment="Top" Width="355"/>
+        <Button x:Name="btnDodajKor" Content="DODAJ" HorizontalAlignment="Left" Height="44" Margin="0,317,0,0" VerticalAlignment="Top" Width="94"/>
+        <Button x:Name="btnIzmeniKor" Content="IZMENI" HorizontalAlignment="Left" Height="44" Margin="94,317,0,0" VerticalAlignment="Top" Width="90"/>
+        <Button x:Name="btnIzbrisiKor" Content="IZBRISI" HorizontalAlignment="Left" Height="44" Margin="184,317,0,0" VerticalAlignment="Top" Width="87"/>
+        <Button x:Name="btnNazad" Content="NAZAD" HorizontalAlignment="Left" Height="44" Margin="271,317,0,0" VerticalAlignment="Top" Width="84"/>
+
+    </Grid>
+</Window>

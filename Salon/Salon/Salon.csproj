@@ -68,6 +68,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MODEL\Akcija.cs" />
+    <Compile Include="MODEL\Korisnik.cs" />
+    <Compile Include="MODEL\Namestaj.cs" />
+    <Compile Include="MODEL\Prodaja.cs" />
+    <Compile Include="MODEL\Projekat.cs" />
+    <Compile Include="MODEL\Salon.cs" />
+    <Compile Include="MODEL\TipNamestaja.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -92,6 +99,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DATA\" />
+    <Folder Include="UI\" />
+    <Folder Include="UTILS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SLIKE\salon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SLIKE\akcija.jpg" />
+    <Resource Include="SLIKE\info.png" />
+    <Resource Include="SLIKE\kasa.jpg" />
+    <Resource Include="SLIKE\korisnici.jpg" />
+    <Resource Include="SLIKE\korisnik.jpg" />
+    <Resource Include="SLIKE\kupac.jpg" />
+    <Resource Include="SLIKE\kupci.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

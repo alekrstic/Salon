@@ -1,0 +1,28 @@
+﻿<Window x:Class="Salon.UI.Prodaja"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Salon.UI"
+        mc:Ignorable="d"
+        Title="Prodaja" Height="536.842" Width="653.008">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="178" VerticalAlignment="Top" Width="174" Source="/Salon;component/SLIKE/kasa.jpg"/>
+        <Image HorizontalAlignment="Left" Height="297" Margin="433,0,0,0" VerticalAlignment="Top" Width="212" Source="/Salon;component/SLIKE/kupci.jpg"/>
+        <DatePicker HorizontalAlignment="Left" Height="26" Margin="174,0,0,0" VerticalAlignment="Top" Width="259"/>
+        <DataGrid HorizontalAlignment="Left" Height="164" Margin="174,49,0,0" VerticalAlignment="Top" Width="259"/>
+        <Label x:Name="lbSadrzaj" Content="NAMESTAJ U KORPI :" HorizontalAlignment="Left" Height="34" Margin="174,26,0,0" VerticalAlignment="Top" Width="259"/>
+        <Button x:Name="btnDodaj" Content="DODAJ" HorizontalAlignment="Left" Height="35" Margin="0,178,0,0" VerticalAlignment="Top" Width="174"/>
+        <Label x:Name="lbUkupno" Content="UNESI KOLICINU :" HorizontalAlignment="Left" Height="35" Margin="0,213,0,0" VerticalAlignment="Top" Width="111"/>
+        <TextBox x:Name="txtKolicina" HorizontalAlignment="Left" Height="35" Margin="111,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109"/>
+        <Label x:Name="lbImeKupca" Content="IME KUPCA :" HorizontalAlignment="Left" Height="32" Margin="56,344,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbPrezimeKupca" Content="PREZIME KUPCA :" HorizontalAlignment="Left" Height="32" Margin="56,396,0,0" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="txtImeK" HorizontalAlignment="Left" Height="32" Margin="261,344,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <TextBox x:Name="txtPrezimeK" HorizontalAlignment="Left" Height="32" Margin="261,396,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <Label x:Name="lbUkupno1" Content="UKUPNO:" HorizontalAlignment="Left" Height="35" Margin="357,213,0,0" VerticalAlignment="Top" Width="76"/>
+        <TextBox x:Name="tbUkupno" HorizontalAlignment="Left" Height="35" Margin="433,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212"/>
+        <Button Content="KUPI" HorizontalAlignment="Left" Height="69" Margin="493,323,0,0" VerticalAlignment="Top" Width="126"/>
+        <Button Content="NAZAD" HorizontalAlignment="Left" Height="69" Margin="493,411,0,0" VerticalAlignment="Top" Width="126"/>
+        <Button Content="DODAJ U KORPU" HorizontalAlignment="Left" Height="35" Margin="220,213,0,0" VerticalAlignment="Top" Width="132"/>
+    </Grid>
+</Window>
