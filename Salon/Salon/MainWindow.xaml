@@ -7,12 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <ListBox x:Name="namestajListBox" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="302"/>
+        <ListBox x:Name="namestajListBox" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="302" SelectionChanged="namestajListBox_SelectionChanged"/>
         <Image x:Name="salon" HorizontalAlignment="Left" Height="150" Margin="302,0,-14,0" VerticalAlignment="Top" Width="229" Source="SLIKE/salon.png"/>
-        <Button Content="IZAĐI" HorizontalAlignment="Left" Height="39" Margin="332,243,0,0" VerticalAlignment="Top" Width="153"/>
-        <Button Content="DODAJ" HorizontalAlignment="Left" Height="40" Margin="332,110,0,0" VerticalAlignment="Top" Width="153"/>
-        <Button Content="IZMENI" HorizontalAlignment="Left" Height="40" Margin="332,155,0,0" VerticalAlignment="Top" Width="153"/>
-        <Button Content="OBRIŠI" HorizontalAlignment="Left" Height="38" Margin="332,200,0,0" VerticalAlignment="Top" Width="153"/>
 
     </Grid>
 </Window>

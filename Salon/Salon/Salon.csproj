@@ -54,6 +54,26 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DodajAkciju.xaml.cs">
+      <DependentUpon>DodajAkciju.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Akcija.xaml.cs">
+      <DependentUpon>Akcija.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Korisnik.xaml.cs">
+      <DependentUpon>Korisnik.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\NamestajWindow.xaml.cs">
+      <DependentUpon>NamestajWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Prodaja.xaml.cs">
+      <DependentUpon>Prodaja.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UTILS\GenericSerializator.cs" />
+    <Page Include="DodajAkciju.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -66,6 +86,22 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UI\Akcija.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Korisnik.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\NamestajWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Prodaja.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MODEL\Akcija.cs" />
@@ -100,11 +136,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DATA\" />
-    <Folder Include="UI\" />
-    <Folder Include="UTILS\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="SLIKE\salon.png" />
   </ItemGroup>
@@ -116,6 +148,12 @@
     <Resource Include="SLIKE\korisnik.jpg" />
     <Resource Include="SLIKE\kupac.jpg" />
     <Resource Include="SLIKE\kupci.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="DATA\namestaj.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="DATA\tipNamestaja.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
