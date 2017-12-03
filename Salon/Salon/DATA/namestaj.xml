@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfNamestaj xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
- <Namestaj>
+  <Namestaj>
     <Id>0</Id>
     <Naziv>Krevet</Naziv>
     <Sifra>k1</Sifra>
@@ -8,9 +8,8 @@
     <Kolicina>10</Kolicina>
     <TipNamestajaId>1</TipNamestajaId>
     <Obrisan>false</Obrisan>
-  </Namestaj>  
-  
-   <Namestaj>
+  </Namestaj>
+  <Namestaj>
     <Id>1</Id>
     <Naziv>Fotelja</Naziv>
     <Sifra>f1</Sifra>
@@ -18,28 +17,23 @@
     <Kolicina>20</Kolicina>
     <TipNamestajaId>1</TipNamestajaId>
     <Obrisan>false</Obrisan>
-  </Namestaj>  
-  
-   <Namestaj>
+  </Namestaj>
+  <Namestaj>
     <Id>2</Id>
     <Naziv>Kuhinjski sto</Naziv>
     <Sifra>ks1</Sifra>
     <Cena>15000</Cena>
     <Kolicina>17</Kolicina>
-    <TipNamestajaId>1</TipNamestajaId>
+    <TipNamestajaId>5</TipNamestajaId>
     <Obrisan>false</Obrisan>
-  </Namestaj>  
-  
-   <Namestaj>
+  </Namestaj>
+  <Namestaj>
     <Id>3</Id>
-    <Naziv>Orman</Naziv>
-    <Sifra>o1</Sifra>
-    <Cena>17200</Cena>
+    <Naziv>aOrman 22111112</Naziv>
+    <Sifra>o11ss</Sifra>
+    <Cena>172001</Cena>
     <Kolicina>52</Kolicina>
-    <TipNamestajaId>1</TipNamestajaId>
-    <Obrisan>false</Obrisan>
-  </Namestaj>  
-
-
-
+    <TipNamestajaId>5</TipNamestajaId>
+    <Obrisan>true</Obrisan>
+  </Namestaj>
 </ArrayOfNamestaj>

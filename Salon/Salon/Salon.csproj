@@ -60,15 +60,25 @@
     <Compile Include="DodajAkciju.xaml.cs">
       <DependentUpon>DodajAkciju.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DodajDodatneUsluge.xaml.cs">
+      <DependentUpon>DodajDodatneUsluge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DodatneUsluge.xaml.cs">
+      <DependentUpon>DodatneUsluge.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MODEL\DodatnaUsluga.cs" />
     <Compile Include="MODEL\TipKorisnika.cs" />
     <Compile Include="Akcija.xaml.cs">
       <DependentUpon>Akcija.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Korisnik.xaml.cs">
-      <DependentUpon>Korisnik.xaml</DependentUpon>
+    <Compile Include="Korisnici.xaml.cs">
+      <DependentUpon>Korisnici.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NamestajWindow.xaml.cs">
+      <DependentUpon>NamestajWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="UI\Prodaja.xaml.cs">
       <DependentUpon>Prodaja.xaml</DependentUpon>
@@ -79,6 +89,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DodajAkciju.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DodajDodatneUsluge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DodatneUsluge.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -102,7 +120,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Korisnik.xaml">
+    <Page Include="Korisnici.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NamestajWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

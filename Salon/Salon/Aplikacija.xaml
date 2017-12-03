@@ -20,7 +20,7 @@
         <Label x:Name="lbProdajaNam" Content="Prodaja namestaja:" HorizontalAlignment="Left" Height="29" Margin="400,102,0,0" VerticalAlignment="Top" Width="123"/>
         <Button x:Name="btnProdaja" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="528,102,0,0" VerticalAlignment="Top" Width="77" Click="btnProdaja_Click"/>
         <Label x:Name="lbDodatneUsluge" Content="Dodatne usluge:" HorizontalAlignment="Left" Height="29" Margin="10,315,0,0" VerticalAlignment="Top" Width="123"/>
-        <Button x:Name="btnDodatneUsluge" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="152,319,0,0" VerticalAlignment="Top" Width="77"/>
+        <Button x:Name="btnDodatneUsluge" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="152,319,0,0" VerticalAlignment="Top" Width="77" Click="btnDodatneUsluge_Click"/>
         <Button x:Name="btnCancel" Content="Izadji" HorizontalAlignment="Left" Height="29" Margin="469,315,0,0" VerticalAlignment="Top" Width="136" Click="btnCancel_Click"/>
 
     </Grid>

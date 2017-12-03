@@ -15,7 +15,7 @@
         <DatePicker x:Name="datumstart" HorizontalAlignment="Left" Height="28" Margin="160,139,0,0" VerticalAlignment="Top" Width="106"/>
         <DatePicker x:Name="datumend" HorizontalAlignment="Left" Height="28" Margin="160,182,0,0" VerticalAlignment="Top" Width="106"/>
         <Button x:Name="btnZavrsi" Content="ZAVRSI" HorizontalAlignment="Left" Height="32" Margin="31,227,0,0" VerticalAlignment="Top" Width="107"/>
-        <Button x:Name="btnOtkazi" Content="OTKAZI" HorizontalAlignment="Left" Height="32" Margin="160,227,0,0" VerticalAlignment="Top" Width="107"/>
+        <Button x:Name="btnOtkazi" Content="OTKAZI" HorizontalAlignment="Left" Height="32" Margin="160,227,0,0" VerticalAlignment="Top" Width="107" Click="btnOtkazi_Click"/>
 
     </Grid>
 </Window>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="Salon.DodajDodatneUsluge"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Salon"
+        mc:Ignorable="d"
+        Title="DodajDodatneUsluge" Height="322.407" Width="484.233">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="SLIKE/kupac.jpg"/>
+        </Grid.Background>
+        <Label x:Name="lbNazivUsluge" Content="Naziv usluge :" HorizontalAlignment="Left" Height="30" Margin="62,10,0,0" VerticalAlignment="Top" Width="102"/>
+        <TextBox x:Name="txtNazivUsluge" HorizontalAlignment="Left" Height="30" Margin="169,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202"/>
+        <Label x:Name="lbCenaUsluge" Content="Cena usluge :" HorizontalAlignment="Left" Height="26" Margin="62,52,0,0" VerticalAlignment="Top" Width="107"/>
+        <TextBox x:Name="txtCena" HorizontalAlignment="Left" Height="26" Margin="174,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" TextChanged="txtCena_TextChanged"/>
+        <Button x:Name="btnDodaj" Content="DODAJ" HorizontalAlignment="Left" Height="28" Margin="0,263,0,0" VerticalAlignment="Top" Width="236"/>
+        <Button x:Name="btnOdustani" Content="ODUSTANI" HorizontalAlignment="Left" Margin="236,263,0,0" Width="240" Click="btnOdustani_Click"/>
+
+    </Grid>
+</Window>

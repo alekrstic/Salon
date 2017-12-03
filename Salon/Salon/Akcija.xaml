@@ -8,10 +8,10 @@
         Title="Akcija" Height="300" Width="300">
     <Grid>
         <Image HorizontalAlignment="Left" Height="82" Margin="2,0,0,0" VerticalAlignment="Top" Width="290" Source="/Salon;component/SLIKE/akcija.jpg"/>
-        <DataGrid x:Name="DGPrikaz" HorizontalAlignment="Left" Height="89" Margin="2,82,0,0" VerticalAlignment="Top" Width="290"/>
+        <DataGrid x:Name="DGPrikaz" HorizontalAlignment="Left" Height="89" Margin="2,82,0,0" VerticalAlignment="Top" Width="290" SelectionChanged="DGPrikaz_SelectionChanged"/>
         <Button Content="DODAJ" HorizontalAlignment="Left" Height="33" Margin="10,199,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click"/>
-        <Button Content="IZMENI" HorizontalAlignment="Left" Height="33" Margin="107,199,0,0" VerticalAlignment="Top" Width="80"/>
-        <Button Content="OBRIŠI" HorizontalAlignment="Left" Height="33" Margin="202,199,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button Content="IZMENI" HorizontalAlignment="Left" Height="33" Margin="107,199,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click_1"/>
+        <Button Content="OBRIŠI" HorizontalAlignment="Left" Height="33" Margin="202,199,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click_2"/>
 
     </Grid>
 </Window>

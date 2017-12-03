@@ -49,21 +49,22 @@ namespace Salon
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var novo = new MODEL.Namestaj()
-            {
-                Naziv = ""
+            NamestajWindow nam = new NamestajWindow();
+            nam.ShowDialog();
+            //var NamestajProzor = new NamestajWindow(izaberi, NamestajWindow.Operacija.DODAJ);
+            //NamestajProzor.ShowDialog();
 
-            };
-           // var namestajWindow = new WfNamestaj(novo, WfNamestaj.Operacija.dODAJ);      
-            //namestajWindow.ShowDialog();
             Prikaz();
+            //NamestajWindow namwindow = new NamestajWindow();
+            //namwindow.ShowDialog();
+            //Prikaz();
         }
 
         private void btnIzmeni_Click(object sender, RoutedEventArgs e)
         {
             var izaberi = (MODEL.Namestaj)namestajListBox.SelectedItem;
-           // var NamestajProzor = new WfNamestaj(izaberi, WfNamestaj.Operacija.IZMENI);
-           // NamestajProzor.ShowDialog();
+            var NamestajProzor = new NamestajWindow(izaberi, NamestajWindow.Operacija.IZMENI);
+            NamestajProzor.ShowDialog();
 
             Prikaz();
 

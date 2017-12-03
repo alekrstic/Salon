@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Salon"
         mc:Ignorable="d"
-        Title="Login" Height="300" Width="497.925">
+        Title="Login" Height="300" Width="497.925" Icon="SLIKE/user.png">
     <Grid>
         <Image HorizontalAlignment="Left" Height="281" VerticalAlignment="Top" Width="506" Source="SLIKE/3login3.jpg" Margin="0,0,-16,-12"/>
         <Label x:Name="lbUser" Content="USERNAME :" HorizontalAlignment="Left" Height="28" Margin="67,113,0,0" VerticalAlignment="Top" Width="80" Foreground="#FFE8DDDD"/>
