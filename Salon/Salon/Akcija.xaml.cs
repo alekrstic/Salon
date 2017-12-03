@@ -11,5 +11,11 @@ namespace Salon.UI
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+           DodajAkciju dakc = new DodajAkciju();
+            dakc.ShowDialog();
+        }
     }
 }

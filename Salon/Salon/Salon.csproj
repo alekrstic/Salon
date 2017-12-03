@@ -60,8 +60,11 @@
     <Compile Include="DodajAkciju.xaml.cs">
       <DependentUpon>DodajAkciju.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MODEL\TipKorisnika.cs" />
-    <Compile Include="UI\Akcija.xaml.cs">
+    <Compile Include="Akcija.xaml.cs">
       <DependentUpon>Akcija.xaml</DependentUpon>
     </Compile>
     <Compile Include="Korisnik.xaml.cs">
@@ -79,6 +82,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -91,7 +98,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="UI\Akcija.xaml">
+    <Page Include="Akcija.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -160,6 +167,16 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="DATA\tipKorisnika.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="DATA\akcija.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SLIKE\12.jpg" />
+    <Resource Include="SLIKE\212.jpg" />
+    <Resource Include="SLIKE\3login3.jpg" />
+    <Resource Include="SLIKE\user.png" />
+    <Resource Include="SLIKE\user1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

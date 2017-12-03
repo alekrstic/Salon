@@ -15,15 +15,13 @@
         <Button x:Name="btnPrikazNam" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="152,57,0,0" VerticalAlignment="Top" Width="77" Click="btnPrikazNam_Click"/>
         <Label x:Name="lbRadSaKorisnicima" Content="Rad sa korisnicima :" HorizontalAlignment="Left" Height="29" Margin="10,102,0,0" VerticalAlignment="Top" Width="123"/>
         <Button x:Name="btnPrikazKor" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="152,102,0,0" VerticalAlignment="Top" Width="77" Click="btnPrikazKor_Click"/>
-        <Label x:Name="lbRadSaNamestajem_Copy" Content="Rad sa namestajem :" HorizontalAlignment="Left" Height="29" Margin="10,299,0,0" VerticalAlignment="Top" Width="123"/>
-        <Button x:Name="btnPrikazNam_Copy" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="152,299,0,0" VerticalAlignment="Top" Width="77"/>
         <Label x:Name="lbPrikazAkcija" Content="Akcijska prodaja :" HorizontalAlignment="Left" Height="29" Margin="400,57,0,0" VerticalAlignment="Top" Width="123"/>
         <Button x:Name="btnPrikazAkc" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="528,57,0,0" VerticalAlignment="Top" Width="77" Click="btnPrikazAkc_Click"/>
         <Label x:Name="lbProdajaNam" Content="Prodaja namestaja:" HorizontalAlignment="Left" Height="29" Margin="400,102,0,0" VerticalAlignment="Top" Width="123"/>
         <Button x:Name="btnProdaja" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="528,102,0,0" VerticalAlignment="Top" Width="77" Click="btnProdaja_Click"/>
-        <Label x:Name="lbDodatneUsluge" Content="Dodatne usluge:" HorizontalAlignment="Left" Height="29" Margin="400,299,0,0" VerticalAlignment="Top" Width="123"/>
-        <Button x:Name="btnDodatneUsluge" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="528,299,0,0" VerticalAlignment="Top" Width="77"/>
-        <Button x:Name="btnCancel" Content="Izadji" HorizontalAlignment="Left" Height="19" Margin="255,360,0,0" VerticalAlignment="Top" Width="127" Click="btnCancel_Click"/>
+        <Label x:Name="lbDodatneUsluge" Content="Dodatne usluge:" HorizontalAlignment="Left" Height="29" Margin="10,315,0,0" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="btnDodatneUsluge" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="152,319,0,0" VerticalAlignment="Top" Width="77"/>
+        <Button x:Name="btnCancel" Content="Izadji" HorizontalAlignment="Left" Height="29" Margin="469,315,0,0" VerticalAlignment="Top" Width="136" Click="btnCancel_Click"/>
 
     </Grid>
 </Window>

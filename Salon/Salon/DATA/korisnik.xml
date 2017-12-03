@@ -4,8 +4,8 @@
     <Id>0</Id>
     <Ime>Pera</Ime>
     <Prezime>Peric</Prezime>
-    <Username>p</Username>
-    <Password>p</Password>
+    <Username>pera</Username>
+    <Password>123</Password>
     <TipKorisnikaId>1</TipKorisnikaId>
     <Obrisan>false</Obrisan>
   </Korisnik>
