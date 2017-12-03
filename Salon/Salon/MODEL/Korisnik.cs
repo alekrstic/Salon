@@ -10,7 +10,7 @@ public enum TipKorisnika
     Prodavac
 }
 
-    class Korisnik
+    public class Korisnik
     {
     public int Id { get; set; }
 

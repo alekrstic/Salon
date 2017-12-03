@@ -3,7 +3,7 @@
 namespace Salon.MODEL
 {
     [Serializable]
-    class Salon
+    public class Salon
     {
         public int Id { get; set; }
 

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Salon.MODEL
 {
-    class Projekat
+    public class Projekat
     {
         public static Projekat Instance { get; } = new Projekat();
 

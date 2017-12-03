@@ -13,6 +13,7 @@
         <Button x:Name="btnIzmeniKor" Content="IZMENI" HorizontalAlignment="Left" Height="44" Margin="94,317,0,0" VerticalAlignment="Top" Width="90"/>
         <Button x:Name="btnIzbrisiKor" Content="IZBRISI" HorizontalAlignment="Left" Height="44" Margin="184,317,0,0" VerticalAlignment="Top" Width="87"/>
         <Button x:Name="btnNazad" Content="NAZAD" HorizontalAlignment="Left" Height="44" Margin="271,317,0,0" VerticalAlignment="Top" Width="84"/>
+        <ListBox x:Name="lbKorisnici" HorizontalAlignment="Left" Height="117" Margin="0,200,0,0" VerticalAlignment="Top" Width="355" SelectionChanged="lbKorisnici_SelectionChanged"/>
 
     </Grid>
 </Window>

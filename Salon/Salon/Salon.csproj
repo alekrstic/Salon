@@ -54,22 +54,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Aplikacija.xaml.cs">
+      <DependentUpon>Aplikacija.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DodajAkciju.xaml.cs">
       <DependentUpon>DodajAkciju.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MODEL\TipKorisnika.cs" />
     <Compile Include="UI\Akcija.xaml.cs">
       <DependentUpon>Akcija.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UI\Korisnik.xaml.cs">
+    <Compile Include="Korisnik.xaml.cs">
       <DependentUpon>Korisnik.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UI\NamestajWindow.xaml.cs">
-      <DependentUpon>NamestajWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="UI\Prodaja.xaml.cs">
       <DependentUpon>Prodaja.xaml</DependentUpon>
     </Compile>
     <Compile Include="UTILS\GenericSerializator.cs" />
+    <Page Include="Aplikacija.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DodajAkciju.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -90,11 +95,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="UI\Korisnik.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UI\NamestajWindow.xaml">
+    <Page Include="Korisnik.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -136,7 +137,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="DATA\korisnik.xml" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="SLIKE\salon.png" />
   </ItemGroup>
@@ -154,6 +157,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="DATA\tipNamestaja.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="DATA\tipKorisnika.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

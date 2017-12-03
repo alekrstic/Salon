@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Salon.MODEL
 {
     [Serializable]
-    class Prodaja
+    public class Prodaja
     {
         public int Id { get; set; }
         public string Kupac { get; set; }

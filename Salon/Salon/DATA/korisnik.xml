@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfKorisnik xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Korisnik>
+    <Id>0</Id>
+    <Ime>Pera</Ime>
+    <Prezime>Peric</Prezime>
+    <Username>p</Username>
+    <Password>p</Password>
+    <TipKorisnikaId>1</TipKorisnikaId>
+    <Obrisan>false</Obrisan>
+  </Korisnik>
+  <Korisnik>
+    <Id>1</Id>
+    <Ime>Zika</Ime>
+    <Prezime>Zikic</Prezime>
+    <Username>z</Username>
+    <Password>z</Password>
+    <TipKorisnikaId>2</TipKorisnikaId>
+    <Obrisan>false</Obrisan>
+  </Korisnik>
+  <Korisnik>
+    <Id>2</Id>
+    <Ime>Acko</Ime>
+    <Prezime>Ackovic</Prezime>
+    <Username>a</Username>
+    <Password>a</Password>
+    <TipKorisnikaId>2</TipKorisnikaId>
+    <Obrisan>false</Obrisan>
+  </Korisnik>
+  <Korisnik>
+    <Id>3</Id>
+    <Ime>Marko</Ime>
+    <Prezime>Markovic</Prezime>
+    <Username>m</Username>
+    <Password>m</Password>
+    <TipKorisnikaId>2</TipKorisnikaId>
+    <Obrisan>false</Obrisan>
+  </Korisnik>
+  <Korisnik>
+    <Id>4</Id>
+    <Ime>Milos</Ime>
+    <Prezime>Milosevic</Prezime>
+    <Username>mm</Username>
+    <Password>mm</Password>
+    <TipKorisnikaId>2</TipKorisnikaId>
+    <Obrisan>false</Obrisan>
+  </Korisnik>
+  
+
+  
+
+ 
+
+
+
+</ArrayOfKorisnik>

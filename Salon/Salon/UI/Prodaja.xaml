@@ -19,7 +19,7 @@
         <Label x:Name="lbPrezimeKupca" Content="PREZIME KUPCA :" HorizontalAlignment="Left" Height="32" Margin="56,396,0,0" VerticalAlignment="Top" Width="148"/>
         <TextBox x:Name="txtImeK" HorizontalAlignment="Left" Height="32" Margin="261,344,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
         <TextBox x:Name="txtPrezimeK" HorizontalAlignment="Left" Height="32" Margin="261,396,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
-        <Label x:Name="lbUkupno1" Content="UKUPNO:" HorizontalAlignment="Left" Height="35" Margin="357,213,0,0" VerticalAlignment="Top" Width="76"/>
+        <Label x:Name="lbUkupno1" Content="UKUPNO:" HorizontalAlignment="Left" Height="35" Margin="352,213,0,0" VerticalAlignment="Top" Width="81"/>
         <TextBox x:Name="tbUkupno" HorizontalAlignment="Left" Height="35" Margin="433,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212"/>
         <Button Content="KUPI" HorizontalAlignment="Left" Height="69" Margin="493,323,0,0" VerticalAlignment="Top" Width="126"/>
         <Button Content="NAZAD" HorizontalAlignment="Left" Height="69" Margin="493,411,0,0" VerticalAlignment="Top" Width="126"/>

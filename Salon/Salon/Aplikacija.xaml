@@ -1,0 +1,29 @@
+﻿<Window x:Class="Salon.Aplikacija"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Salon"
+        mc:Ignorable="d"
+        Title="Aplikacija" Height="421.991" Width="683.402">
+    <Grid Margin="0,0,2,2">
+        <Grid.Background>
+            <ImageBrush ImageSource="SLIKE/salon.png"/>
+        </Grid.Background>
+        <Label x:Name="lbWelcome" Content="DOBRODOSLI !" HorizontalAlignment="Left" Height="30" Margin="288,27,0,0" VerticalAlignment="Top" Width="105"/>
+        <Label x:Name="lbRadSaNamestajem" Content="Rad sa namestajem :" HorizontalAlignment="Left" Height="29" Margin="10,53,0,0" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="btnPrikazNam" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="152,57,0,0" VerticalAlignment="Top" Width="77" Click="btnPrikazNam_Click"/>
+        <Label x:Name="lbRadSaKorisnicima" Content="Rad sa korisnicima :" HorizontalAlignment="Left" Height="29" Margin="10,102,0,0" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="btnPrikazKor" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="152,102,0,0" VerticalAlignment="Top" Width="77" Click="btnPrikazKor_Click"/>
+        <Label x:Name="lbRadSaNamestajem_Copy" Content="Rad sa namestajem :" HorizontalAlignment="Left" Height="29" Margin="10,299,0,0" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="btnPrikazNam_Copy" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="152,299,0,0" VerticalAlignment="Top" Width="77"/>
+        <Label x:Name="lbPrikazAkcija" Content="Akcijska prodaja :" HorizontalAlignment="Left" Height="29" Margin="400,57,0,0" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="btnPrikazAkc" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="528,57,0,0" VerticalAlignment="Top" Width="77" Click="btnPrikazAkc_Click"/>
+        <Label x:Name="lbProdajaNam" Content="Prodaja namestaja:" HorizontalAlignment="Left" Height="29" Margin="400,102,0,0" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="btnProdaja" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="528,102,0,0" VerticalAlignment="Top" Width="77" Click="btnProdaja_Click"/>
+        <Label x:Name="lbDodatneUsluge" Content="Dodatne usluge:" HorizontalAlignment="Left" Height="29" Margin="400,299,0,0" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="btnDodatneUsluge" Content="Prikazi" HorizontalAlignment="Left" Height="25" Margin="528,299,0,0" VerticalAlignment="Top" Width="77"/>
+        <Button x:Name="btnCancel" Content="Izadji" HorizontalAlignment="Left" Height="19" Margin="255,360,0,0" VerticalAlignment="Top" Width="127" Click="btnCancel_Click"/>
+
+    </Grid>
+</Window>

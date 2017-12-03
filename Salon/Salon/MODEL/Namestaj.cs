@@ -4,7 +4,7 @@
 namespace Salon.MODEL
 {
     [Serializable]
-    class Namestaj
+    public class Namestaj
     {
         public int Id { get; set; }
 
@@ -17,16 +17,31 @@ namespace Salon.MODEL
         public int Kolicina { get; set; }
         public int TipNamestajaId { get; set; }
 
+        public override string ToString()
+        {
+            return $"{ Naziv}, { Cena }, { Kolicina },{ TipNamestajaId }";
+        }
+
+        public static Namestaj GetById(int id)
+        {
+            foreach (var namestaj in Projekat.Instance.Namestaj)
+            {
+                if (namestaj.Id == id)
+                {
+                    return namestaj;
+                }
+            }
+            return null;
+        }
+
         public bool Obrisan { get; set; }
 
         public Akcija Akcija { get; set; }
 
         
 
-        public override string ToString()
-        {
-            return $"{Naziv},{Sifra},{Cena},{TipNamestajaId}";
-        }
+        
+        
 
         
 

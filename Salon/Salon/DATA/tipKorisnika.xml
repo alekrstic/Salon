@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfTipKorisnika xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TipKorisnika>
+    <Id>1</Id>
+    <Naziv>Administrator</Naziv>
+    <Obrisan>false</Obrisan>
+  </TipKorisnika>
+  <TipKorisnika>
+    <Id>2</Id>
+    <Naziv>Prodavac</Naziv>
+    <Obrisan>false</Obrisan>
+  </TipKorisnika>
+
+  
+
+</ArrayOfTipKorisnika>

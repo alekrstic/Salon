@@ -21,7 +21,7 @@
   </Namestaj>  
   
    <Namestaj>
-    <Id>0</Id>
+    <Id>2</Id>
     <Naziv>Kuhinjski sto</Naziv>
     <Sifra>ks1</Sifra>
     <Cena>15000</Cena>
@@ -31,7 +31,7 @@
   </Namestaj>  
   
    <Namestaj>
-    <Id>0</Id>
+    <Id>3</Id>
     <Naziv>Orman</Naziv>
     <Sifra>o1</Sifra>
     <Cena>17200</Cena>

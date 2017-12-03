@@ -5,10 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Salon"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="383" Width="498">
     <Grid>
-        <ListBox x:Name="namestajListBox" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="302" SelectionChanged="namestajListBox_SelectionChanged"/>
-        <Image x:Name="salon" HorizontalAlignment="Left" Height="150" Margin="302,0,-14,0" VerticalAlignment="Top" Width="229" Source="SLIKE/salon.png"/>
+        <ListBox x:Name="namestajListBox" HorizontalAlignment="Left" Height="352" VerticalAlignment="Top" Width="204" SelectionChanged="namestajListBox_SelectionChanged"/>
+        <Image x:Name="salon" HorizontalAlignment="Left" Height="150" Margin="238,0,0,0" VerticalAlignment="Top" Width="229" Source="SLIKE/salon.png"/>
+        <Button x:Name="btnIzadji" Content="IZADJI" HorizontalAlignment="Left" Margin="269,287,0,0" VerticalAlignment="Top" Width="149" Height="46" Click="btnIzadji_Click"/>
+        <Button x:Name="btnObrisi" Content="OBRISI" HorizontalAlignment="Left" Margin="269,236,0,0" VerticalAlignment="Top" Width="149" Height="46" Click="btnObrisi_Click"/>
+        <Button x:Name="Button" Content="DODAJ" HorizontalAlignment="Left" Margin="269,134,0,0" VerticalAlignment="Top" Width="149" Height="46" Click="Button_Click"/>
+        <Button x:Name="btnIzmeni" Content="IZMENI" HorizontalAlignment="Left" Margin="269,185,0,0" VerticalAlignment="Top" Width="149" Height="46" Click="btnIzmeni_Click"/>
 
     </Grid>
 </Window>
