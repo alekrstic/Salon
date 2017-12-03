@@ -17,7 +17,7 @@ namespace Salon.UI
         private void Button_Click(object sender, RoutedEventArgs e)
         {
            DodajAkciju dakc = new DodajAkciju();
-            dakc.ShowDialog();
+           dakc.ShowDialog();
         }
 
         private void DGPrikaz_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)

@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Salon.MODEL;
-using Salon.UI;
 
 
 namespace Salon
@@ -35,17 +34,18 @@ namespace Salon
 
         private void btnPrikazKor_Click(object sender, RoutedEventArgs e)
         {
-           //Korisnici kor = new Korisnici();
-           //kor.ShowDialog();
-;           //Korisnik kor = new Korisnik();
+           
+           // Korisnici kor = new Korisnici();
+            //kor.ShowDialog();
+            //Korisnik kor = new Korisnik();
             //kor.ShowDialog();
 
         }
 
         private void btnPrikazAkc_Click(object sender, RoutedEventArgs e)
         {
-            //Akcija akc = new Akcija();
-            //ShowDialog();
+            Akcija aa = new Akcija();
+           // aa.ShowDialog();
         }
 
         private void btnProdaja_Click(object sender, RoutedEventArgs e)
@@ -62,8 +62,8 @@ namespace Salon
 
         private void btnDodatneUsluge_Click(object sender, RoutedEventArgs e)
         {
-           // DodatnaUsluga dusl = new DodatnaUsluga();
-           // dusl.ShowDialog();
+            DodatneUsluge du = new DodatneUsluge();
+            du.ShowDialog();
         }
     }
 }

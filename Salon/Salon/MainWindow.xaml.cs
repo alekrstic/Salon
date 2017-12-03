@@ -54,7 +54,7 @@ namespace Salon
             //var NamestajProzor = new NamestajWindow(izaberi, NamestajWindow.Operacija.DODAJ);
             //NamestajProzor.ShowDialog();
 
-            Prikaz();
+            //Prikaz();
             //NamestajWindow namwindow = new NamestajWindow();
             //namwindow.ShowDialog();
             //Prikaz();

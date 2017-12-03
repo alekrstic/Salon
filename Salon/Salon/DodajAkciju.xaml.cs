@@ -14,7 +14,7 @@ namespace Salon
 
         private void btnOtkazi_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            //this.Close();
         }
     }
 }

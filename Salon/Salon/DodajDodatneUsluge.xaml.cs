@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Salon.MODEL;
 
 namespace Salon
 {
@@ -19,9 +20,19 @@ namespace Salon
     /// </summary>
     public partial class DodajDodatneUsluge : Window
     {
+        internal static object Operacija;
+        private Namestaj izabranaUsluga;
+        private object iZMENA;
+
         public DodajDodatneUsluge()
         {
             InitializeComponent();
+        }
+
+        public DodajDodatneUsluge(Namestaj izabranaUsluga, object iZMENA)
+        {
+            this.izabranaUsluga = izabranaUsluga;
+            this.iZMENA = iZMENA;
         }
 
         private void txtCena_TextChanged(object sender, TextChangedEventArgs e)
@@ -31,7 +42,7 @@ namespace Salon
 
         private void btnOdustani_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
     }
 }
