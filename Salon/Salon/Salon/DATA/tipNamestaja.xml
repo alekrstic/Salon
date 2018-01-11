@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfTipNamestaja xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TipNamestaja>
+    <Id>0</Id>
+    <Naziv>Kuhinja Forma ideale</Naziv>
+    <Obrisan>false</Obrisan>
+  </TipNamestaja>
+  
+  <TipNamestaja>
+    <Id>1</Id>
+    <Naziv>Dnevni boravak Simpo</Naziv>
+    <Obrisan>false</Obrisan>
+  </TipNamestaja>
+  
+  <TipNamestaja>
+    <Id>2</Id>
+    <Naziv>Dnevni boravak Simpo</Naziv>
+    <Obrisan>false</Obrisan>
+  </TipNamestaja>
+
+  <TipNamestaja>
+    <Id>3</Id>
+    <Naziv>Spavaca soba Ikea</Naziv>
+    <Obrisan>false</Obrisan>
+  </TipNamestaja>
+
+  <TipNamestaja>
+    <Id>4</Id>
+    <Naziv>Aleksandro Spavaca soba</Naziv>
+    <Obrisan>false</Obrisan>
+  </TipNamestaja>
+
+  <TipNamestaja>
+    <Id>5</Id>
+    <Naziv>Dnevni boravak Matis</Naziv>
+    <Obrisan>false</Obrisan>
+  </TipNamestaja>
+  
+</ArrayOfTipNamestaja>

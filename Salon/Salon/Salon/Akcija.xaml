@@ -1,0 +1,17 @@
+﻿<Window x:Class="Salon.UI.Akcija"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Salon.UI"
+        mc:Ignorable="d"
+        Title="Akcija" Height="300" Width="300">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="82" Margin="2,0,0,0" VerticalAlignment="Top" Width="290" Source="/Salon;component/SLIKE/akcija.jpg"/>
+        <DataGrid x:Name="DGPrikaz" HorizontalAlignment="Left" Height="89" Margin="2,82,0,0" VerticalAlignment="Top" Width="290" SelectionChanged="DGPrikaz_SelectionChanged"/>
+        <Button Content="DODAJ" HorizontalAlignment="Left" Height="33" Margin="10,199,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click"/>
+        <Button Content="IZMENI" HorizontalAlignment="Left" Height="33" Margin="107,199,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click_1"/>
+        <Button Content="OBRIŠI" HorizontalAlignment="Left" Height="33" Margin="202,199,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>

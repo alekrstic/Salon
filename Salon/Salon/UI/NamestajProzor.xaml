@@ -1,0 +1,28 @@
+﻿<Window x:Class="Salon.UI.NamestajProzor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Salon.UI"
+        mc:Ignorable="d"
+        Title="NamestajProzor" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="18*"/>
+            <RowDefinition Height="251*"/>
+        </Grid.RowDefinitions>
+        <Label Content="NAZIV" HorizontalAlignment="Left" Height="27" Grid.Row="1" VerticalAlignment="Top" Width="70" Margin="10,0,0,0"/>
+        <Label Content="SIFRA" HorizontalAlignment="Left" Height="27" Grid.Row="1" VerticalAlignment="Top" Width="70" Margin="10,32,0,0"/>
+        <Label Content="CENA" HorizontalAlignment="Left" Height="30" Margin="10,64,0,0" Grid.Row="1" VerticalAlignment="Top" Width="70"/>
+        <Label Content="KOLICINA" HorizontalAlignment="Left" Height="35" Margin="10,94,0,0" Grid.Row="1" VerticalAlignment="Top" Width="70"/>
+        <Label Content="TIP" HorizontalAlignment="Left" Height="29" Margin="10,134,0,0" Grid.Row="1" VerticalAlignment="Top" Width="70"/>
+        <Button x:Name="btnSAVE" Content="SACUVAJ" HorizontalAlignment="Left" Height="78" Margin="0,173,0,0" Grid.Row="1" VerticalAlignment="Top" Width="139" Click="btnSAVE_Click"/>
+        <Button x:Name="btnCancel" Content="IZADJI" HorizontalAlignment="Left" Height="78" Margin="144,173,0,0" Grid.Row="1" VerticalAlignment="Top" Width="148" Click="btnCancel_Click"/>
+        <TextBox x:Name="tbNaziv" HorizontalAlignment="Left" Height="27" Margin="144,0,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="tbSifra" HorizontalAlignment="Left" Height="27" Margin="144,32,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
+        <TextBox x:Name="tbCena" HorizontalAlignment="Left" Height="30" Margin="144,64,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
+        <TextBox x:Name="tbKolicina" HorizontalAlignment="Left" Height="30" Margin="144,99,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
+        <ComboBox x:Name="cbTip" HorizontalAlignment="Left" Height="24" Margin="144,144,0,0" Grid.Row="1" VerticalAlignment="Top" Width="110"/>
+
+    </Grid>
+</Window>
